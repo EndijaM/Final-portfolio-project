@@ -1,0 +1,40 @@
+:root {
+  --font-cinzel: "Cinzel", serif;
+  --font-dosis: "Dosis", sans-serif;
+  --font-titillium-web: "Titillium Web", sans-serif;
+}
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--font-cinzel);
+  font-weight: 600;
+  font-size: 85px;
+}
+h2 {
+  font-family: var(--font-titillium-web);
+  font-weight: 600;
+  font-size: 50px;
+}
+h3 {
+  font-family: var(--font-dosis);
+  font-weight: 600;
+  font-size: 44px;
+}
+.hero {
+  background-color: #e0dfdd;
+  padding: 160px 20px;
+}
+.country-flag {
+  margin: 10px 20px;
+  border-radius: 50%;
+  max-width: 50px;
+  opacity: 0.8;
+  filter: drop-shadow(10px 10px 10px grey);
+  transition: all 100ms ease-in-out;
+}
+.country-flag:hover {
+  max-width: 55px;
+  opacity: 1;
+}
