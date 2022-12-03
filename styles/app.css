@@ -22,6 +22,18 @@ h3 {
   font-weight: 600;
   font-size: 44px;
 }
+h4 {
+  font-family: var(--font-cinzel);
+  font-weight: 600;
+  font-size: 38px;
+  opacity: 0.8;
+  border-bottom: dotted 9px;
+  border-color: #e0dfdd;
+}
+p {
+  font-family: var(--font-titillium-web);
+  font-size: 18px;
+}
 nav li {
   list-style: none;
   display: inline;
@@ -91,10 +103,24 @@ img {
   font-family: var(--font-titillium-web);
   font-weight: 600;
 }
-.vertical-img .project-description {
-  padding: 30px 0 0 0;
+.project-description {
 }
 .pointer {
   font-size: 70px;
   color: #e0dfdd;
+}
+.hero-bottom {
+  background-color: #c7cece;
+  margin-top: 100px;
+}
+footer .footer-email {
+  text-decoration: none;
+  color: black;
+  font-family: var(--font-dosis);
+  font-weight: 600;
+  font-size: 24px;
+  transition: all 100ms ease-in-out;
+}
+footer .footer-email:hover {
+  color: #767676;
 }
