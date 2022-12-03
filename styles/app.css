@@ -60,6 +60,17 @@ img {
   border-radius: 20px;
   max-height: 500px;
 }
+footer .footer-email {
+  text-decoration: none;
+  color: black;
+  font-family: var(--font-dosis);
+  font-weight: 600;
+  font-size: 24px;
+  transition: all 100ms ease-in-out;
+}
+footer .footer-email:hover {
+  color: #767676;
+}
 .hero {
   background-color: #e0dfdd;
   padding: 100px 20px;
@@ -113,14 +124,15 @@ img {
   background-color: #c7cece;
   margin-top: 100px;
 }
-footer .footer-email {
-  text-decoration: none;
-  color: black;
-  font-family: var(--font-dosis);
-  font-weight: 600;
-  font-size: 24px;
+.fa-brands {
+  margin: 20px;
+  padding: 15px 15px;
+  border-radius: 50%;
+  background-color: #e0dfdd;
+  color: #494b4b;
   transition: all 100ms ease-in-out;
 }
-footer .footer-email:hover {
-  color: #767676;
+a .fa-brands:hover {
+  background-color: 494b4b;
+  color: white;
 }
