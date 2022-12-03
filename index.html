@@ -32,11 +32,37 @@
     <link rel="stylesheet" href="styles/app.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/index.html" title="Homepage">
+          <img
+            src="/images/em-logo.png"
+            alt="Endija Mathur Logo "
+            class="logo"
+          />
+        </a>
+
+        <ul>
+          <li class="active">
+            <a href="/index.html" title="Homepage">Homepage</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Endija Mathur">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Work of Endija Mathur">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Endija Mathur">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
       <h3>Hi, I'm</h3>
       <h1>Endija Mathur</h1>
       <h2>Front-end developer based in Europe</h2>
-      <div>
+      <div class="mb-5">
         <img
           src="/images/lv.png"
           alt="Latvian flag"
@@ -55,6 +81,101 @@
           class="country-flag"
           title="German flag"
         />
+      </div>
+      <div class="hero-buttons">
+        <a
+          href="/about.html"
+          class="btn btn-branding d-none d-sm-inline"
+          title="About me"
+          >About me</a
+        >
+        <a
+          href="/work.html"
+          class="btn btn-branding d-none d-sm-inline"
+          title="My work"
+          >My work</a
+        >
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
+      </div>
+    </div>
+    <div class="container">
+      <div class="row m-5">
+        <div class="col d-none d-md-block">
+          <img
+            src="/images/lemon.jpg"
+            alt="Yogurt app preview "
+            class="img-fluid"
+          />
+        </div>
+        <div class="col">
+          <div class="project-description">
+            <div class="pointer"><i class="fa-solid fa-arrow-left"></i></div>
+            <h2 class="">Landing page Project</h2>
+
+            <a href="/work.html" class="btn btn-branding-outline"
+              >View project detail</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row m-5">
+        <div class="col">
+          <div class="project-description">
+            <div class="pointer"><i class="fa-solid fa-arrow-right"></i></div>
+            <h2 class="">Dark-mode Project</h2>
+
+            <a href="/work.html" class="btn btn-branding-outline"
+              >View project detail</a
+            >
+          </div>
+        </div>
+        <div class="col d-none d-md-block">
+          <img
+            src="/images/dark-mode.jpg"
+            alt="Weather app prieview"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+      <div class="row m-5">
+        <div class="col d-none d-md-block">
+          <img
+            src="/images/weather.jpg"
+            alt="Dictionary app preview"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col">
+          <div class="project-description">
+            <div class="pointer"><i class="fa-solid fa-arrow-left"></i></div>
+            <h2 class="">Weather App Project</h2>
+
+            <a href="/work.html" class="btn btn-branding-outline"
+              >View project detail</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row m-5">
+        <div class="col">
+          <div class="project-description">
+            <div class="pointer"><i class="fa-solid fa-arrow-right"></i></div>
+            <h2 class="">World Clock Project</h2>
+
+            <a href="/work.html" class="btn btn-branding-outline"
+              >View project detail</a
+            >
+          </div>
+        </div>
+        <div class="col d-none d-md-block">
+          <img
+            src="/images/world-clock.jpg"
+            alt="Weather app prieview"
+            class="img-fluid"
+          />
+        </div>
       </div>
     </div>
   </body>
