@@ -53,6 +53,7 @@ nav a {
 }
 nav a:hover,
 nav li.active a {
+  color: #767676;
   font-weight: bolder;
   transition: 100ms all ease-in-out;
 }
