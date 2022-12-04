@@ -143,3 +143,6 @@ a .fa-brands:hover {
 .work-heading {
   margin-bottom: 70px;
 }
+.logo-img {
+  max-height: 200px;
+}
