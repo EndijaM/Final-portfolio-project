@@ -113,6 +113,7 @@ footer .footer-email:hover {
   margin: 10px 30px;
   font-size: 20px;
   font-family: var(--font-titillium-web);
+  box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.3);
 }
 .btn-branding-outline {
   background-color: var(--bacground-color);
@@ -152,7 +153,8 @@ a .fa-brands:hover {
 }
 @media (max-width: 960px) {
   h1 {
-    font-size: 50px;
+    font-size: 55px;
+    margin: 20px 10px;
   }
   h2 {
     font-size: 34px;
@@ -162,6 +164,32 @@ a .fa-brands:hover {
     font-size: 30px;
     font-weight: 100;
   }
-  .btn-branding a {
+
+  nav {
+    display: block;
+  }
+  img {
+    max-height: 250px;
+    margin: 10px 0px 10px 0px;
+  }
+  .country-flag {
+    max-width: 30px;
+  }
+  .logo {
+    max-height: 50px;
+  }
+  .work h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .contact h1 {
+    font-size: 40px;
+    margin-bottom: -20px;
+  }
+  .logo-img {
+    max-height: 120px;
+  }
+  .hero-bottom {
+    border-radius: 10px;
   }
 }
