@@ -2,6 +2,11 @@
   --font-cinzel: "Cinzel", serif;
   --font-dosis: "Dosis", sans-serif;
   --font-titillium-web: "Titillium Web", sans-serif;
+  --bacground-color: #e0dfdd;
+  --secondary-background-color: #494b4b;
+  --branding-font-color: #767676;
+  --branding-detail-color: #bf9b30;
+  --button-color: #888b8b;
 }
 body {
   text-align: center;
@@ -28,7 +33,7 @@ h4 {
   font-size: 38px;
   opacity: 0.8;
   border-bottom: dotted 9px;
-  border-color: #bf9b30;
+  border-color: var(--branding-detail-color);
   line-height: 1.5;
 }
 p {
@@ -51,11 +56,11 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: #767676;
+  color: var(--branding-font-color);
 }
 nav a:hover,
 nav li.active a {
-  color: #767676;
+  color: var(--branding-font-color);
   font-weight: bolder;
   transition: 100ms all ease-in-out;
 }
@@ -73,10 +78,10 @@ footer .footer-email {
   transition: all 100ms ease-in-out;
 }
 footer .footer-email:hover {
-  color: #767676;
+  color: var(--branding-font-color);
 }
 .hero {
-  background-color: #e0dfdd;
+  background-color: var(--bacground-color);
   padding: 100px 20px;
   margin-bottom: 150px;
 }
@@ -102,7 +107,7 @@ footer .footer-email:hover {
 }
 
 .btn-branding {
-  background-color: #888b8b;
+  background-color: var(--button-color);
   color: #f5f5f5;
   padding: 10px 20px;
   margin: 10px 30px;
@@ -110,19 +115,18 @@ footer .footer-email:hover {
   font-family: var(--font-titillium-web);
 }
 .btn-branding-outline {
-  background-color: #e0dfdd;
-  color: #767676;
+  background-color: var(--bacground-color);
+  color: var(--branding-font-color);
   padding: 10px 20px;
   margin: 10px 30px;
   font-size: 20px;
   font-family: var(--font-titillium-web);
   font-weight: 600;
 }
-.project-description {
-}
+
 .pointer {
   font-size: 70px;
-  color: #e0dfdd;
+  color: var(--bacground-color);
 }
 .hero-bottom {
   background-color: #c7cece;
@@ -132,12 +136,12 @@ footer .footer-email:hover {
   margin: 20px;
   padding: 15px 15px;
   border-radius: 50%;
-  background-color: #e0dfdd;
-  color: #494b4b;
+  background-color: var(--bacground-color);
+  color: var(--secondary-background-color);
   transition: all 100ms ease-in-out;
 }
 a .fa-brands:hover {
-  background-color: 494b4b;
+  background-color: var(--secondary-background-color);
   color: white;
 }
 .work-heading {
@@ -145,4 +149,19 @@ a .fa-brands:hover {
 }
 .logo-img {
   max-height: 200px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 34px;
+    font-weight: 100;
+  }
+  h3 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .btn-branding a {
+  }
 }
