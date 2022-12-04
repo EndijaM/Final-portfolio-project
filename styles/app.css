@@ -28,7 +28,7 @@ h4 {
   font-size: 38px;
   opacity: 0.8;
   border-bottom: dotted 9px;
-  border-color: #e0dfdd;
+  border-color: #bf9b30;
   line-height: 1.5;
 }
 p {
@@ -88,12 +88,12 @@ footer .footer-email:hover {
   margin: 30px 20px;
   border-radius: 50%;
   max-width: 50px;
-  opacity: 0.8;
+  opacity: 0.2;
   filter: drop-shadow(10px 10px 10px grey);
-  transition: all 100ms ease-in-out;
+  transition: all 140ms ease-in-out;
 }
 .country-flag:hover {
-  max-width: 55px;
+  max-width: 59px;
   opacity: 1;
 }
 .hero-buttons {
