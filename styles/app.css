@@ -89,19 +89,12 @@ footer .footer-email:hover {
   max-height: 60px;
 }
 
-.country-flag {
-  margin: 30px 20px;
-  border-radius: 50%;
-  max-width: 50px;
-  opacity: 0.2;
-  filter: drop-shadow(10px 10px 10px grey);
-  transition: all 140ms ease-in-out;
-}
 .country-flag:hover {
   max-width: 59px;
   opacity: 1;
 }
 .hero-buttons {
+  margin-top: 80px;
   display: flex;
   justify-content: center;
 }
@@ -151,6 +144,10 @@ a .fa-brands:hover {
 .logo-img {
   max-height: 200px;
 }
+small {
+  font-weight: 100;
+  font-size: 30px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 55px;
@@ -172,9 +169,7 @@ a .fa-brands:hover {
     max-height: 250px;
     margin: 10px 0px 10px 0px;
   }
-  .country-flag {
-    max-width: 30px;
-  }
+
   .logo {
     max-height: 50px;
   }
